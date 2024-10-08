@@ -1,5 +1,5 @@
-#include "s2n.h"
-#include "fingerprint.h"
+#include <s2n.h>
+// #include <s2n/unstable/fingerprint.h>
 
 int main() {
     int result = s2n_init();
